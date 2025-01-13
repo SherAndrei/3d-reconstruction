@@ -552,7 +552,7 @@ class TrainMonitor(keras.callbacks.Callback):
         ax[2].set_title(f"Loss Plot: {epoch:03d}")
 
         fig.savefig(f"images/{epoch:03d}.png")
-        plt.show()
+        # plt.show()
         plt.close()
 
 
