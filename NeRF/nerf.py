@@ -1,3 +1,5 @@
+#%%
+
 """
 Title: 3D volumetric rendering with NeRF
 Authors: [Aritra Roy Gosthipaty](https://twitter.com/arig23498), [Ritwik Raha](https://twitter.com/ritwik_raha)
@@ -55,6 +57,7 @@ implementation.
 """
 ## Setup
 """
+#%%
 import os
 
 os.environ["KERAS_BACKEND"] = "tensorflow"
@@ -80,7 +83,7 @@ BATCH_SIZE = 5
 NUM_SAMPLES = 32
 POS_ENCODE_DIMS = 16
 EPOCHS = 20
-
+#%%
 """
 ## Download and load the data
 
@@ -143,7 +146,7 @@ im_shape = images.shape
 # Plot a random image from the dataset for visualization.
 plt.imshow(images[np.random.randint(low=0, high=num_images)])
 plt.show()
-
+#%%
 """
 ## Data pipeline
 
@@ -199,7 +202,7 @@ point.
 
 """
 
-
+#%%
 def encode_position(x):
     """Encodes the position into its corresponding Fourier feature.
 
@@ -586,6 +589,8 @@ def create_gif(path_to_images, name_gif):
 
 create_gif("images/*.png", "training.gif")
 
+#%%
+
 """
 ## Visualize the training step
 
@@ -636,6 +641,7 @@ for ax, ori_img, recons_img, depth_map in zip(
     ax[2].imshow(keras.utils.array_to_img(depth_map[..., None]), cmap="inferno")
     ax[2].set_title("Depth Map")
 
+#%%
 """
 ## Render 3D Scene
 
