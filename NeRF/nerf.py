@@ -143,9 +143,6 @@ im_shape = images.shape
 (num_images, H, W, _) = images.shape
 (poses, focal) = (data["poses"], data["focal"])
 
-# Plot a random image from the dataset for visualization.
-plt.imshow(images[np.random.randint(low=0, high=num_images)])
-plt.show()
 #%%
 """
 ## Data pipeline
