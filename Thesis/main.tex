@@ -6,9 +6,6 @@
 \usepackage[english, russian]{babel}
 %--------------------------------------
 
-\usepackage[utf8]{inputenc}
-\usepackage[russian]{babel}
-
 % размеры полей из ГОСТ 7.32-2017.pdf п.6.1.1
 \usepackage[
 	left=30mm,
@@ -22,8 +19,25 @@
 % абзацный отступ из ГОСТ 7.32-2017.pdf п.6.1.1
 \setlength{\parindent}{1.25cm}
 
+\usepackage[citestyle=gost-footnote-min, bibstyle=gost-footnote]{biblatex}
+\addbibresource{references.bib}
+
 \begin{document}
 
-\include{title}
+\include{00-title}
+
+\tableofcontents
+
+\include{01-introduction}
+\include{02-methods-review}
+\include{03-nerf}
+\include{04-blender}
+\include{05-alternative}
+\include{06-results}
+\include{07-conclusions}
+
+\printbibliography
+
+\chapter{Приложения}
 
 \end{document}
