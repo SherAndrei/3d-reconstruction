@@ -1,9 +1,14 @@
 \documentclass[a4paper,12pt]{report}
 
 %--------------------------------------
+% The cmap package creates a ToUnicode mapping in the PDF, which
+% ensures that internal character codes (e.g., for Cyrillic text)
+% are correctly translated to Unicode when copying from the PDF.
+% Without it, copy-paste operations may yield garbled text.
+\usepackage{cmap}
 \usepackage[T2A]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage[english, russian]{babel}
+\usepackage[russian, english]{babel}
 %--------------------------------------
 
 % размеры полей из ГОСТ 7.32-2017.pdf п.6.1.1
