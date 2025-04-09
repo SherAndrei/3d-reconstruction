@@ -46,3 +46,92 @@
 	volume = {13},
 	doi = {10.37936/ecti-cit.2019132.194324}
 }
+
+@article{10.1109/34.273735,
+	author = {Laurentini, A.},
+	title = {The Visual Hull Concept for Silhouette-Based Image Understanding},
+	year = {1994},
+	issue_date = {February 1994},
+	publisher = {IEEE Computer Society},
+	address = {USA},
+	volume = {16},
+	number = {2},
+	issn = {0162-8828},
+	url = {https://doi.org/10.1109/34.273735},
+	doi = {10.1109/34.273735},
+	abstract = {Many algorithms for both identifying and reconstructing a 3-D object are based on the 2-D silhouettes of the object. In general, identifying a nonconvex object using a silhouette-based approach implies neglecting some features of its surface as identification clues. The same features cannot be reconstructed by volume intersection techniques using multiple silhouettes of the object. This paper addresses the problem of finding which parts of a nonconvex object are relevant for silhouette-based image understanding. For this purpose, the geometric concept of visual hull of a 3-D object is introduced. This is the closest approximation of object S that can be obtained with the volume intersection approach; it is the maximal object silhouette-equivalent to S, i.e., which can be substituted for S without affecting any silhouette. Only the parts of the surface of S that also lie on the surface of the visual hull can be reconstructed or identified using silhouette-based algorithms. The visual hull depends not only on the object but also on the region allowed to the viewpoint. Two main viewing regions result in the external and internal visual hull. In the former case the viewing region is related to the convex hull of S, in the latter it is bounded by S. The internal visual hull also admits an interpretation not related to silhouettes. Algorithms for computing visual hulls are presented and their complexity analyzed. In general, the visual hull of a 3-D planar face object turns out to be bounded by planar and curved patches.},
+	journal = {IEEE Trans. Pattern Anal. Mach. Intell.},
+	month = feb,
+	pages = {150–162},
+	numpages = {13},
+	keywords = {silhouette-based image understanding, object reconstruction, object identification, nonconvex object, internal visual hull, image reconstruction, external visual hull}
+}
+
+@inproceedings{10.5555/794189.794361,
+author = {Seitz, Steven M. and Dyer, Charles R.},
+title = {Photorealistic Scene Reconstruction by Voxel Coloring},
+year = {1997},
+isbn = {0818678224},
+publisher = {IEEE Computer Society},
+address = {USA},
+abstract = {A novel scene reconstruction technique is presented, different from previous approaches in its ability to cope with large changes in visibility and its modeling of intrinsic scene color and texture information. The method avoids image correspondence problems by working in a discretized scene space whose voxels are traversed in a fixed visibility ordering. This strategy takes full account of occlusions and allows the input cameras to be far apart and widely distributed about the environment. The algorithm identifies a special set of invariant voxels which together form a spatial and photometric reconstruction of the scene, fully consistent with the input images. The approach is evaluated with images from both inward- and outward-facing cameras.},
+booktitle = {Proceedings of the 1997 Conference on Computer Vision and Pattern Recognition (CVPR '97)},
+pages = {1067},
+keywords = {image-based rendering, shape from motion, stereo, view synthesis},
+series = {CVPR '97}
+}
+
+@techreport{10.5555/898435,
+	author = {Kutulakos, Kiriakos N. and Seitz, Steven M.},
+	title = {A Theory of Shape by Space Carving},
+	year = {1998},
+	publisher = {University of Rochester},
+	address = {USA},
+	abstract = {In this paper we consider the problem of computing the 3D shape of an unknown, arbitrarily-shaped scene from multiple color photographs taken at known but arbitrarily-distributed viewpoints. By studying the equivalence class of all 3D shapes that reproduce the input photographs, we prove the existence of a special member of this class, the maximal photo-consistent shape, that (1) can be computed from an arbitrary volume that contains the scene, and (2) subsumes all other members of this class. We then give a provably-correct algorithm, called Space Carving, for computing this shape and present experimental results from applying it to the reconstruction of geometrically-complex scenes from several photographs. The approach is specifically designed to (1) build 3D shapes that allow faithful reproduction of all input photographs, (2) resolve the complex interactions between occlusion, parallax, shading, and their effects on arbitrary collections of photographs of a scene, and (3) follow a "least commitment" approach to 3D shape recovery.}
+}
+
+@inproceedings{10.1109/CVPR.2007.383246,
+	author = {Furukawa, Yasutaka and Ponce, J.},
+	year = {2007},
+	month = {06},
+	pages = {},
+	title = {Accurate, Dense, and Robust Multi-View Stereopsis},
+	volume = {32},
+	journal = {IEEE Trans. Pattern Anal.},
+	doi = {10.1109/CVPR.2007.383246}
+}
+
+@inproceedings{10.1109/CVPR.1998.698642,
+	author={Baker, S. and Szeliski, R. and Anandan, P.},
+	booktitle={Proceedings. 1998 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (Cat. No.98CB36231)}, 
+	title={A layered approach to stereo reconstruction},
+	year={1998},
+	volume={},
+	number={},
+	pages={434-441},
+	keywords={Layout;Image reconstruction;Pixel;Motion estimation;Cameras;Stereo image processing;Computer science;Read only memory;Equations;Sprites (computer)},
+	doi={10.1109/CVPR.1998.698642}
+}
+
+@inproceedings{schoenberger2016sfm,
+    author={Sch\"{o}nberger, Johannes Lutz and Frahm, Jan-Michael},
+    title={Structure-from-Motion Revisited},
+    booktitle={Conference on Computer Vision and Pattern Recognition (CVPR)},
+    year={2016},
+}
+
+@inproceedings{schoenberger2016mvs,
+    author={Sch\"{o}nberger, Johannes Lutz and Zheng, Enliang and Pollefeys, Marc and Frahm, Jan-Michael},
+    title={Pixelwise View Selection for Unstructured Multi-View Stereo},
+    booktitle={European Conference on Computer Vision (ECCV)},
+    year={2016},
+}
+
+@article{Knapitsch2017,
+    author    = {Arno Knapitsch and Jaesik Park and Qian-Yi Zhou and Vladlen Koltun},
+    title     = {Tanks and Temples: Benchmarking Large-Scale Scene Reconstruction},
+    journal   = {ACM Transactions on Graphics},
+    volume    = {36},
+    number    = {4},
+    year      = {2017},
+}
