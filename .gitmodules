@@ -1,0 +1,3 @@
+[submodule "blender-gen-dataset"]
+	path = blender-gen-dataset
+	url = git@github.com:SherAndrei/blender-gen-dataset.git
