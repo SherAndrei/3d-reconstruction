@@ -10,7 +10,8 @@ requires-python = ">=3.11"
 dependencies = [
     "tensorflow (>=2.18.0,<3.0.0)",
     "matplotlib (>=3.10.1,<4.0.0)",
-    "numpy (>=1.26.0,<2.2.0)"
+    "numpy (>=1.26.0,<2.2.0)",
+    "pyqt5 (>=5.15.11,<6.0.0)"
 ]
 
 [tool.poetry]
