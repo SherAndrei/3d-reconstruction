@@ -7,3 +7,6 @@
 [submodule "NeTO"]
 	path = NeTO
 	url = https://github.com/xxlong0/NeTO
+[submodule "idr"]
+	path = idr
+	url = https://github.com/lioryariv/idr.git
