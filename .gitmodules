@@ -10,3 +10,6 @@
 [submodule "idr"]
 	path = idr
 	url = https://github.com/lioryariv/idr.git
+[submodule "idr-cpu"]
+	path = idr-cpu
+	url = https://github.com/eduardramon/idr
