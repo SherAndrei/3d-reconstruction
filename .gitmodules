@@ -13,3 +13,6 @@
 [submodule "idr-cpu"]
 	path = idr-cpu
 	url = https://github.com/eduardramon/idr
+[submodule "TensoRF"]
+	path = TensoRF
+	url = https://github.com/apchenstu/TensoRF.git
