@@ -16,3 +16,6 @@
 [submodule "TensoRF"]
 	path = TensoRF
 	url = https://github.com/apchenstu/TensoRF.git
+[submodule "colmap"]
+	path = colmap
+	url = https://github.com/colmap/colmap.git
